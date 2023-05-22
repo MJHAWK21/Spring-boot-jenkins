@@ -13,4 +13,9 @@ public class DemoController {
         return "Hello";
     }
 
+
+    @GetMapping("/javapoint")
+    public String java() {
+        return "javapoint";
+    }
 }
